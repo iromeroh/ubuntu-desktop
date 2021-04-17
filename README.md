@@ -12,7 +12,7 @@ This is a Docker image for Ubuntu with X11 and VNC. It is based on
  - Mounts a local path into the container's "/var/lib/mysql" dir to be used as database storage.
  - Provides a script for easy setup and launch of mysql.
 
-![screenshot](https://github.com/iromeroh/ubuntu-desktop/screenshots/Snapshot1.PNG)
+![screenshot](https://github.com/iromeroh/ubuntu-desktop/blob/main/screenshots/Snapshot1.PNG)
 
 ## Preparation for Using with Docker
 Before you start, you need to first install Python and Docker on
