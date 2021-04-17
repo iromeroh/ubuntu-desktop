@@ -1,7 +1,7 @@
 # Docker Image for Ubuntu with X11 and VNC and MySQL server/workbench
 
 This is a Docker image for Ubuntu with X11 and VNC. It is based on
-[x11vnc/ubuntu-desktop](https://raw.github.com/x11vnc/x11vnc-desktop/master/), and [sameersbn/docker-mysql](https://github.com/sameersbn/docker-mysql) but with a focus on interactive use of MySQL for educational purposes.
+[x11vnc/ubuntu-desktop](https://github.com/x11vnc/x11vnc-desktop), and [sameersbn/docker-mysql](https://github.com/sameersbn/docker-mysql) but with a focus on interactive use of MySQL for educational purposes.
  - VNC is protected by a unique random password for each session
  - Desktop runs in a standard user account instead of the root account
  - Supports dynamic resizing of the desktop and 24-bit true color
@@ -142,6 +142,8 @@ Notes regarding singularity:
 See the LICENSE file for details.
 
 ## Related Projects
+ - [x11vnc/ubuntu-desktop](https://github.com/x11vnc/x11vnc-desktop): a very nice Linux container with x11 and VNC web access.
+ - [sameersbn/docker-mysql](https://github.com/sameersbn/docker-mysql): a very good MySQL container that supports local storage of the databases.
  - [novnc/noVNC](https://github.com/novnc/noVNC): VNC client using HTML5 (Web Sockets, Canvas)
  - [fcwu/docker-ubuntu-vnc-desktop](https://github.com/fcwu/docker-ubuntu-vnc-desktop): An original but insecure implementation of Ubuntu desktop, without password protection.
  - [phusion/baseimage](https://github.com/phusion/baseimage-docker): A minimal Ubuntu base image modified for Docker-friendliness
